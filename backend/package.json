@@ -1,0 +1,20 @@
+{
+  "name": "nosh-dish-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --experimental-sqlite --no-warnings src/server.js",
+    "dev": "node --experimental-sqlite --no-warnings --watch src/server.js",
+    "seed": "node --experimental-sqlite --no-warnings scripts/seed.js",
+    "test": "node --experimental-sqlite --no-warnings --test test/api.test.js"
+  },
+  "engines": { "node": ">=22.5" },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
+    "express": "^5.0.0"
+  }
+}
+

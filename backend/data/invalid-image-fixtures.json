@@ -1,0 +1,14 @@
+[
+  {
+    "dishName": "Broken Image Dish",
+    "dishId": "bad-image",
+    "imageUrl": "not-a-valid-url",
+    "isPublished": false
+  },
+  {
+    "dishName": "FTP Image Dish",
+    "dishId": "ftp-image",
+    "imageUrl": "ftp://example.com/dish.jpg",
+    "isPublished": false
+  }
+]
